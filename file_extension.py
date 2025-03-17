@@ -23,6 +23,7 @@ def get_files1():
     file_dict={}
     file_dict['extension']={}
     
+    print(files)
     for file1 in files:
         file=file1.split('.')
         if not file[1] in file_dict['extension'].keys():
